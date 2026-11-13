@@ -1,5 +1,6 @@
 
 select
+-- GitHub sync test: staging model
     nullif(trim(`DRINKS`), '') as drink_name,
     cast(`DATE` as date) as date,
 
